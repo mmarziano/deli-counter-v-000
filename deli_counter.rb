@@ -9,6 +9,7 @@ def line(katz_deli)
     new_array = []
     katz_deli.each_with_index do |name, index|
       new_array << "#{index}. #{name}"
+    end
     puts "The line is currently: #{new_array}."
   end
     
