@@ -8,7 +8,8 @@ def line(katz_deli)
   else 
     new_array = []
     katz_deli.each_with_index do |name, index|
-      new_array << "#{index}. #{name}"
+      position_in_line = index + 1 
+      new_array << "#{position_in_line}. #{name}"
     end
     puts "The line is currently: #{new_array}."
   end
