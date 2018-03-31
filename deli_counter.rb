@@ -22,3 +22,7 @@ def take_a_number(katz_deli, new_name)
   new_number = katz_deli.length
   puts "Welcome, #{new_name}. You are number #{new_number} in line."
 end
+
+def now_serving
+  
+end
