@@ -14,5 +14,4 @@ def line(katz_deli)
       line = new_array.join(" ")
       puts "The line is currently: #{line}"
   end
-    
 end
