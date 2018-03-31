@@ -17,7 +17,7 @@ def line(katz_deli)
 end
 
 
-def take_a_number(katz_deli, name)
+def take_a_number(katz_deli, new_name)
   
 
 end
