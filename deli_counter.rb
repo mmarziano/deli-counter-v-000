@@ -20,7 +20,5 @@ end
 def take_a_number(katz_deli, new_name)
   katz_deli.push(new_name)
   new_number = katz_deli.length
-  puts "#{new_name}, you are number #{new_number}""
-  
-
+  puts "#{new_name}, you are number #{new_number}"
 end
