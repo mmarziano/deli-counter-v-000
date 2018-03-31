@@ -23,6 +23,6 @@ def take_a_number(katz_deli, new_name)
   puts "Welcome, #{new_name}. You are number #{new_number} in line."
 end
 
-def now_serving
+def now_serving(katz_deli)
   
 end
