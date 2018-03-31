@@ -11,7 +11,7 @@ def line(katz_deli)
       position_in_line = index + 1 
       new_array << "#{position_in_line}. #{name}"
     end
-    puts "The line is currently: #{new_array}."
+      new_array.join(", ")
   end
     
 end
